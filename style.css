@@ -1,0 +1,64 @@
+/* font family link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+/* 
+========================
+    COMMON STYLE
+========================
+*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+/* 
+========================
+    HOME PART
+========================
+*/
+.home{
+    display: flex;
+    background-color:  #2D25A0;
+    padding: 40px;
+    /* justify-content: center; */
+}
+
+.home-left{
+    margin-left: 55px;
+}
+.home-left h1{
+    width: 485px;
+    height: 230px;
+    font-size: 64px;
+    color: #FFFFFF;
+    /* margin-left: 156px; */
+}
+.home-left button{
+    background: #E02C6D;
+    padding: 10px 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    border: none;
+    transition: background 2s ease-out, transform 2s ease-in-out;
+}
+.home-left button:hover{
+    background: #2ccbe0;
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+.home-right img{
+    width: 556px;
+    height: 438px;
+    margin: 13px 111px 86px 102px;
+    
+}
+
+/* 
+========================
+    HOME PART
+========================
+*/
