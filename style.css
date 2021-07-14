@@ -7,7 +7,7 @@
     COMMON STYLE
 ========================
 */
-body{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
@@ -18,24 +18,24 @@ body{
     HOME PART
 ========================
 */
-.home{
+.home {
     display: flex;
-    background-color:  #2D25A0;
+    background-color: #2D25A0;
     padding: 40px;
-    /* justify-content: center; */
 }
 
-.home-left{
+.home-left {
     margin-left: 55px;
 }
-.home-left h1{
+
+.home-left h1 {
     width: 485px;
     height: 230px;
     font-size: 64px;
     color: #FFFFFF;
-    /* margin-left: 156px; */
 }
-.home-left button{
+
+.home-left button {
     background: #E02C6D;
     padding: 10px 24px;
     font-size: 16px;
@@ -44,21 +44,78 @@ body{
     border: none;
     transition: background 2s ease-out, transform 2s ease-in-out;
 }
-.home-left button:hover{
+
+.home-left button:hover {
     background: #2ccbe0;
     transform: scale(1.1);
     cursor: pointer;
-    
+
 }
-.home-right img{
+
+.home-right img {
     width: 556px;
     height: 438px;
     margin: 13px 111px 86px 102px;
-    
+
 }
 
 /* 
 ========================
-    HOME PART
+    PLAYERS PART
 ========================
 */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1051px;
+    margin-top: 64px;
+    margin-left: 85px;
+}
+
+.player {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 330px;
+    height: 474px;
+    transition: 0.3s;
+    padding: 10px;
+    margin: 20px;
+}
+
+.player img {
+    width: 100%;
+}
+
+.player h3 {
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 5px;
+}
+
+.player p {
+    font-size: 16px;
+    margin: 10px 0px;
+    color: #6C6C6C;
+}
+
+.player:hover {
+    box-shadow: 10px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.player-info {
+    padding: 2px 16px;
+}
+
+/* 
+========================
+    FOOTER PART
+========================
+*/
+.football {
+    width: 483.87px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+.football img {
+    width: 100%;
+}
