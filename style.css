@@ -121,26 +121,27 @@ body {
     font-size: 30px;
     padding: 32px;
     color: rgb(73, 209, 243);
-  }
-  
-  .row {
-    justify-content: center;
+}
+
+.row {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     padding: 0 4px;
-  }
-  .column {
+    justify-content: center;
+}
+
+.column {
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
-  }
-  
-  .column img {
+}
+
+.column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-  }
-  
+}
+
 
 
 /* 
