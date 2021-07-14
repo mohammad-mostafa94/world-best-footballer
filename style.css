@@ -110,6 +110,9 @@ body {
     FOOTER PART
 ========================
 */
+.footers{
+    margin: 60px;
+}
 .football {
     width: 483.87px;
     height: 110px;
@@ -118,4 +121,21 @@ body {
 
 .football img {
     width: 100%;
+}
+.icon{
+    text-align: center;
+    margin-top: 10px;
+}
+.icon i{
+    padding: 5px;
+    color: rgb(216, 200, 200);
+    background-color: #f3ecec;
+    border-radius:50%;
+}
+
+.footers p{
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0px;
+    color: #000000;
 }
