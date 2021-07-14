@@ -18,9 +18,13 @@ body {
     HOME PART
 ========================
 */
+.container {
+    width: 1350px;
+    background-color: #2D25A0;
+}
+
 .home {
     display: flex;
-    background-color: #2D25A0;
     padding: 40px;
 }
 
@@ -30,7 +34,6 @@ body {
 
 .home-left h1 {
     width: 485px;
-    height: 230px;
     font-size: 64px;
     color: #FFFFFF;
 }
@@ -55,7 +58,7 @@ body {
 .home-right img {
     width: 556px;
     height: 438px;
-    margin: 13px 111px 86px 102px;
+    margin: 113px 111px 86px 102px;
 
 }
 
@@ -64,10 +67,13 @@ body {
     PLAYERS PART
 ========================
 */
+.players-container {
+    width: 1051px;
+}
+
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 1051px;
     margin-top: 64px;
     margin-left: 85px;
 }
@@ -107,12 +113,25 @@ body {
 
 /* 
 ========================
+    MESSI PART
+========================
+*/
+.messi{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+/* 
+========================
     FOOTER PART
 ========================
 */
-.footers{
+.footers {
     margin: 60px;
 }
+
 .football {
     width: 483.87px;
     height: 110px;
@@ -122,20 +141,68 @@ body {
 .football img {
     width: 100%;
 }
-.icon{
+
+.icon {
     text-align: center;
-    margin-top: 10px;
+    margin: 20px;
 }
-.icon i{
+
+.icon i {
     padding: 5px;
     color: rgb(216, 200, 200);
     background-color: #f3ecec;
-    border-radius:50%;
+    border-radius: 50%;
 }
 
-.footers p{
+.footers p {
     text-align: center;
     font-size: 18px;
     margin: 20px 0px;
-    color: #000000;
+    color: #c7c6c6;
+}
+
+/* 
+========================
+    MEDIA QUERY PART
+========================
+*/
+@media only screen and (max-width: 688px) {
+    .home-left h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .home-right img {
+        width: 400px;
+        margin: 20px 0 20px 0;
+    }
+
+    .home {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .players {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+        margin-left: 30px;
+    }
+    .messi img{
+        width: 100%;
+    }
+    .football img {
+        width: 300px;
+    }
+
+    .icon {
+        text-align: center;
+        margin: auto;
+        width: 50%;
+    }
+    
+    .footers p{
+        text-align: center;
+    }
+
 }
