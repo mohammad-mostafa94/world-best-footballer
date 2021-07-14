@@ -113,16 +113,47 @@ body {
 
 /* 
 ========================
+    GALLERY PART
+========================
+*/
+.gallery-text {
+    text-align: center;
+    font-size: 30px;
+    padding: 32px;
+    color: rgb(73, 209, 243);
+  }
+  
+  .row {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+
+
+/* 
+========================
     MESSI PART
 ========================
 */
-.messi{
+.messi {
     text-align: center;
-    justify-content: center;
-    align-items: center;
     width: 100%;
     margin: 0 auto;
 }
+
 /* 
 ========================
     FOOTER PART
@@ -149,8 +180,8 @@ body {
 
 .icon i {
     padding: 5px;
-    color: rgb(216, 200, 200);
-    background-color: #f3ecec;
+    color: rgb(126, 116, 116);
+    background-color: #cfcbcb;
     border-radius: 50%;
 }
 
@@ -158,7 +189,7 @@ body {
     text-align: center;
     font-size: 18px;
     margin: 20px 0px;
-    color: #c7c6c6;
+    color: gray;
 }
 
 /* 
@@ -188,9 +219,21 @@ body {
         margin: auto;
         margin-left: 30px;
     }
-    .messi img{
+
+    .player {
+        margin: 20px 0;
+    }
+
+    .messi {
+        text-align: center;
+        width: 100%;
+        /* margin: 10px 0 0 30px; */
+    }
+
+    .messi img {
         width: 100%;
     }
+
     .football img {
         width: 300px;
     }
@@ -200,8 +243,8 @@ body {
         margin: auto;
         width: 50%;
     }
-    
-    .footers p{
+
+    .footers p {
         text-align: center;
     }
 
